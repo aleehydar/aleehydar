@@ -32,8 +32,9 @@ Raspberry Pi 5.
 ---
 
 ## 📜 Certifications
-- Kaggle — Intro to Machine Learning
 - Kaggle — Python
+- Kaggle — Intro to Machine Learning
+- Kaggle — Intermediate Machine Learning
 - GeeksforGeeks — MongoDB Overview
 
 ---
