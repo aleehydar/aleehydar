@@ -1,44 +1,51 @@
-# Hi, I'm Ali Haidar 👋
+# Ali Haidar
 
-🎓 Final year BSCS student at FAST NUCES, Islamabad  
-🤖 Machine Learning Engineer | Computer Vision | Deep Learning  
-📍 Islamabad, Pakistan | Open to remote opportunities  
+Final-semester CS student at FAST-NUCES (graduating May 2026). 
+I've spent the last year building and deploying real AI systems 
+while finishing my degree.
 
----
+## What I've built
 
-## 🚀 About Me
-I build end-to-end machine learning solutions — from raw data cleaning 
-to trained, evaluated, and deployed models. Currently working on my 
-Final Year Project on camouflage object detection using YOLOv8 on 
-Raspberry Pi 5.
+**Pakistan Legal AI** — Agentic RAG system for Pakistani 
+constitutional law. HyDE retrieval + CrossEncoder reranking over 
+FAISS + LLM that routes autonomously between a RAG search tool and 
+a Python tax calculator. Zero hallucination rate on source 
+documents. FastAPI with real-time SSE streaming, Dockerized.
 
----
+**BizScout Pakistan** — 5-agent LangGraph system that validates 
+business ideas for Pakistani entrepreneurs. Market, competitor, 
+regulatory, financial, and risk agents run in parallel; a risk 
+agent synthesizes everything into a viability score and GO / NO GO 
+recommendation. Full report in under 2 minutes. Live on AWS EC2.
 
-## 🛠️ Tech Stack
-**Languages:** Python  
-**ML/DL:** scikit-learn, XGBoost, PyTorch, YOLOv8, Keras  
-**Data:** pandas, NumPy, Matplotlib  
-**Tools:** Git, GitHub, Streamlit, Jupyter, VS Code  
+**ClinicFlow** — TinyLlama 1.1B fine-tuned with QLoRA on Pakistani 
+medical cases. 4-bit quantization brought memory from 40GB to 4GB, 
+training only 1–2% of parameters. Generates structured SOAP notes 
+in under 700ms. Live on EC2.
 
----
+**MLOps Pipeline** — RandomForest → ONNX → FastAPI → Docker → 
+GitHub Actions → EC2. 27 pytest cases block bad deployments. 
+Prometheus tracking latency, error rate, and data drift against 
+training baseline.
 
-## 📂 Featured Projects
-| Project | Description | Tools |
-|---------|-------------|-------|
-| [Titanic Survival Prediction](https://github.com/aleehydar/ML---Journey) | Classification with Decision Tree, Random Forest, XGBoost — 81.6% accuracy | scikit-learn, XGBoost |
-| [House Price Prediction](https://github.com/aleehydar/ML---Journey) | Regression with Random Forest and XGBoost — MAE $1,890 | scikit-learn, XGBoost |
-| Camouflage Object Detection | YOLOv8 nano on Raspberry Pi 5 for real-time soldier detection | PyTorch, YOLOv8 |
+**Camouflage Object Detection** *(FYP)* — YOLOv8 nano running 
+real-time inference on Raspberry Pi 5. Confidence threshold set to 
+0.25 — a deliberate call given the cost of false negatives in 
+military applications.
 
----
+## Stack
 
-## 📜 Certifications
-- Kaggle — Python
-- Kaggle — Intro to Machine Learning
-- Kaggle — Intermediate Machine Learning
-- GeeksforGeeks — MongoDB Overview
+Python · PyTorch · LangGraph · LangChain · QLoRA/PEFT · FAISS · 
+Groq · HuggingFace · YOLOv8 · FastAPI · Docker · AWS EC2 · 
+GitHub Actions · ONNX · Prometheus
 
----
+## Certifications
 
-## 🔗 Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ali-haidar-8a330420b/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-blue?style=flat&logo=kaggle)](https://www.kaggle.com/aleehydar)
+Anthropic — Model Context Protocol (MCP)  
+Kaggle — Python, Intro to ML, Intermediate ML  
+
+## Currently
+
+Freelancing on RAG pipelines, fine-tuning, and ML infrastructure 
+for clients in healthcare and legal. Open to ML Engineer / AI 
+Developer roles — remote or Islamabad / Rawalpindi / Lahore.
