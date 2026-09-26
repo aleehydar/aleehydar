@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ali Haidar Banner](./banner.svg)
+![Ali Haidar Banner](./assests/banner.svg)
 
 # Ali Haidar
 
