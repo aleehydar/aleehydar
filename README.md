@@ -6,7 +6,7 @@
 
 Applied AI & Machine Learning Engineer working with Python, C++, FastAPI, RAG, multi-agent systems, and MLOps.
 
-[Pakistan Legal AI](https://github.com/aleehydar/Pakistan-Legal-AI) • [bizscout](https://github.com/aleehydar/bizscout) • [clinicflow](https://github.com/aleehydar/clinicflow)
+[Pakistan Legal AI](https://github.com/aleehydar/Pakistan-Legal-AI) • [bizscout](https://github.com/aleehydar/bizscout) • [docgraph](https://github.com/aleehydar/docgraph)
 
 </div>
 
