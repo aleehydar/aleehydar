@@ -1,0 +1,49 @@
+<svg fill="none" viewBox="0 0 800 240" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; rx: 12px; }
+    .title { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.5px; }
+    .card-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 8px; }
+    .card-title { fill: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; }
+    .card-sub { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; }
+    .hero-text { fill: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 600; }
+    .line { fill: none; stroke-width: 2; stroke-linecap: round; }
+  </style>
+
+  <rect width="100%" height="100%" class="bg" />
+
+  <text x="30" y="35" class="title">Ali Haidar / aleehydar</text>
+
+  <!-- Flow Lines -->
+  <path d="M 60 140 C 120 70, 180 180, 240 140 C 300 100, 360 170, 420 130 C 480 90, 540 160, 620 100 C 680 50, 720 110, 740 130" class="line" stroke="#38bdf8" opacity="0.4" />
+  <path d="M 60 160 C 140 190, 200 110, 280 150 C 340 190, 440 110, 520 160 C 600 210, 680 120, 740 150" class="line" stroke="#4ade80" opacity="0.4" />
+
+  <!-- Box 1 -->
+  <g transform="translate(40, 75)">
+    <rect width="150" height="58" class="card-bg" />
+    <text x="14" y="26" class="card-title">AI observability</text>
+    <text x="14" y="44" class="card-sub">costs, traces, feedback loops</text>
+  </g>
+
+  <!-- Box 2 -->
+  <g transform="translate(225, 125)">
+    <rect width="165" height="58" class="card-bg" />
+    <text x="14" y="26" class="card-title">RAG systems</text>
+    <text x="14" y="44" class="card-sub">retrieval, citations, evals</text>
+  </g>
+
+  <!-- Box 3 -->
+  <g transform="translate(425, 75)">
+    <rect width="155" height="58" class="card-bg" />
+    <text x="14" y="26" class="card-title">Voice tools</text>
+    <text x="14" y="44" class="card-sub">local-first, assistive UX</text>
+  </g>
+
+  <!-- Box 4 -->
+  <g transform="translate(615, 125)">
+    <rect width="150" height="58" class="card-bg" />
+    <text x="14" y="26" class="card-title">Agent workflows</text>
+    <text x="14" y="44" class="card-sub">automation, review, delivery</text>
+  </g>
+
+  <text x="400" y="212" text-anchor="middle" class="hero-text">Practical AI systems, built with modest claims and visible evidence.</text>
+</svg>
